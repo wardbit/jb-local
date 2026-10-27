@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.test-tmp/
+/vendor/
+/audit/
+/docs/superpowers/
+*.key
+*.pem
+*.ppk
+*.zip
+id_ed25519*
+id_rsa*

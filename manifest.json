@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-27",
+  "core_version": "2025.3.0",
+  "upstream_archive": {
+    "url": "https://gitee.com/ja-netfilter/ja-netfilter/releases/download/2025.3.0/ja-netfilter-2025.3.0.zip",
+    "published_sha1": "5605ca8abc8436c4877d4a06041c7d8eb67412b8"
+  },
+  "notes": [
+    "privacy.jar has not been independently matched to its publisher.",
+    "The original site calls its env plugin dns.jar; preserved for compatibility.",
+    "Configuration and license data are a site snapshot, not an upstream release.",
+    "Local hashes detect changes to this snapshot, not whether original code is safe."
+  ],
+  "files": {
+    "config/dns.conf": {
+      "sha256": "3db52a6d35a3fcc4475ef1c751beddeac451058666ee506d7be21acd730cb5c1",
+      "size": 55,
+      "source": "http://jb.ide.to/ja-netfilter/config/dns.conf",
+      "upstream_match": null
+    },
+    "config/native.conf": {
+      "sha256": "54a8e1d5020ba6ac6d8d6eaa8130de755c856a8ae9c61144796ee7914ee4382c",
+      "size": 35,
+      "source": "http://jb.ide.to/ja-netfilter/config/native.conf",
+      "upstream_match": null
+    },
+    "config/power.conf": {
+      "sha256": "f3b34ad19d5c016aceb1d014e6ab920c19b09f17ccc75052243baaa3282a66f8",
+      "size": 16139,
+      "source": "http://jb.ide.to/ja-netfilter/config/power.conf",
+      "upstream_match": null
+    },
+    "config/url.conf": {
+      "sha256": "636bb8379fe860fc62be568e7c33a4a552a336d6e49c8dae041eb48cb625bd4c",
+      "size": 766,
+      "source": "http://jb.ide.to/ja-netfilter/config/url.conf",
+      "upstream_match": null
+    },
+    "ja-netfilter.jar": {
+      "sha256": "0100484b6410660eca2c202f4a5bfd907763bdb323e1c07662c12dbde5ba8936",
+      "size": 299920,
+      "source": "http://jb.ide.to/ja-netfilter/ja-netfilter.jar",
+      "upstream_match": "ja-netfilter/ja-netfilter.jar"
+    },
+    "license.key": {
+      "sha256": "a0bbe4de47ff71b33a953c02b73ad6e9b60a4fffea875b33075d720f1903bdd9",
+      "size": 59664,
+      "source": "http://jb.ide.to/auth?k=default_auth",
+      "upstream_match": null
+    },
+    "plugins/dns.jar": {
+      "sha256": "9dc98734005393ff9c888be809f8d2ddf4490152377844c76679b5b4a0e788ea",
+      "size": 5187,
+      "source": "http://jb.ide.to/ja-netfilter/plugins/dns.jar",
+      "upstream_match": "ja-netfilter/plugins/env.jar"
+    },
+    "plugins/hideme.jar": {
+      "sha256": "f793c4d9f4ac7b5f43455c8ce84a814253a904e83350f95b0215d4d66aa032d4",
+      "size": 7177,
+      "source": "http://jb.ide.to/ja-netfilter/plugins/hideme.jar",
+      "upstream_match": "ja-netfilter/plugins/hideme.jar"
+    },
+    "plugins/native.jar": {
+      "sha256": "14e4e588abf33678bae57f84c6a61af68ce97552f2aa6883a7fdd46dac956ff5",
+      "size": 4960,
+      "source": "http://jb.ide.to/ja-netfilter/plugins/native.jar",
+      "upstream_match": "ja-netfilter/plugins/native.jar"
+    },
+    "plugins/power.jar": {
+      "sha256": "09fa536905a32569d82e9622ee2a2df1e98cf26eb1e4262d9be5bccfa7693668",
+      "size": 9193,
+      "source": "http://jb.ide.to/ja-netfilter/plugins/power.jar",
+      "upstream_match": "ja-netfilter/plugins/power.jar"
+    },
+    "plugins/privacy.jar": {
+      "sha256": "acf04040854e5fd816d736875403d2a6215e2cef79dbe5eb8677cd588044151a",
+      "size": 32671,
+      "source": "http://jb.ide.to/ja-netfilter/plugins/privacy.jar",
+      "upstream_match": null
+    },
+    "plugins/url.jar": {
+      "sha256": "1d25c61bbc1ef330e4d7319846d2d72899e90ed5ad7c6387cd73e3b24f5bd179",
+      "size": 4512,
+      "source": "http://jb.ide.to/ja-netfilter/plugins/url.jar",
+      "upstream_match": "ja-netfilter/plugins/url.jar"
+    }
+  }
+}
